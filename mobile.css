@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1100px) {
+
+    .container {
+        flex-direction: column;
+        width: 500px;
+        height: auto;
+        text-align: center;
+    }
+
+    h1 {
+        margin-top: 0;
+    }
+
+    .box {
+        display: none;
+    }
+
+    .woman {
+        background-image: url("images/illustration-woman-online-mobile.svg");
+        width: 275px;
+        height: 210px;
+        top: -100px;
+        left: 50%;
+        transform: translate(0,-40%);
+        margin: 0 auto;
+    }
+}
